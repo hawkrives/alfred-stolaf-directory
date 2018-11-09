@@ -8,7 +8,9 @@ function* resultIntoTitle(result) {
 		yield `(x${ext})`
 	}
 	let email = result.username
-	yield `[${email}]`
+	if (email) {
+		yield `[${email}]`
+	}
 }
 
 function* resultIntoSubtitle(result) {
