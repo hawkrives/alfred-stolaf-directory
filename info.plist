@@ -7,7 +7,21 @@
 	<key>category</key>
 	<string>Internet</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>180C2E7D-C4E9-462F-9102-C75CC1F45770</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E11F8E71-D99F-43B1-B5F4-67495F7A0C7B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>Hawken Rives</string>
 	<key>description</key>
@@ -66,6 +80,25 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>E11F8E71-D99F-43B1-B5F4-67495F7A0C7B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -75,6 +108,13 @@
 		<dict>
 			<key>xpos</key>
 			<integer>50</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>E11F8E71-D99F-43B1-B5F4-67495F7A0C7B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
 			<key>ypos</key>
 			<integer>40</integer>
 		</dict>
